@@ -1,6 +1,4 @@
 <script lang="ts">
-  import type { projects } from '$lib/db/schema';
-  import type { InferSelectModel } from 'drizzle-orm';
   import type { PageData } from './$types';
 
   export let data: PageData;
