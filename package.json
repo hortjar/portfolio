@@ -14,6 +14,7 @@
     "db:studio": "dotenv drizzle-kit studio"
   },
   "devDependencies": {
+    "@iconify/svelte": "^3.1.6",
     "@sveltejs/adapter-auto": "^3.0.0",
     "@sveltejs/kit": "^2.0.0",
     "@sveltejs/vite-plugin-svelte": "^3.0.0",
@@ -24,6 +25,7 @@
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-svelte": "^2.35.1",
+    "iconify-icon": "^2.0.0",
     "postcss": "^8.4.38",
     "prettier": "^3.1.1",
     "prettier-plugin-svelte": "^3.1.2",
@@ -36,14 +38,17 @@
   },
   "type": "module",
   "dependencies": {
+    "@svelte-plugins/tooltips": "^3.0.0",
     "@sveltejs/adapter-vercel": "^5.2.0",
     "@t3-oss/env-core": "^0.9.2",
     "@vercel/postgres": "^0.8.0",
+    "clsx": "^2.1.0",
     "dotenv-cli": "^7.4.1",
     "dotenv-expand": "^11.0.6",
     "drizzle-kit": "^0.20.14",
     "drizzle-orm": "^0.30.7",
     "postgres": "^3.4.4",
+    "tailwind-merge": "^2.2.2",
     "zod": "^3.22.4"
   }
 }
