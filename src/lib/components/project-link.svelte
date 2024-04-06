@@ -1,17 +1,31 @@
 <script lang="ts">
   import type { projects } from '$lib/db/schema';
   import type { InferSelectModel } from 'drizzle-orm';
+  import { tooltip } from '@svelte-plugins/tooltips';
+  import 'iconify-icon';
+  import GithubButton from './github-button.svelte';
   import ProjectButton from './project-button.svelte';
 
   export let project: InferSelectModel<typeof projects>;
 </script>
 
-{#if project.public}
-  <a href={project.url}>
+<div
+  class="flex flex-row h-16"
+  use:tooltip={{
+    content: project.public ? '' : 'Coming soon!',
+    action: 'hover',
+    animation: 'fade'
+  }}
+>
+  {#if project.public}
+    <a href={project.url} target="_blank">
+      <ProjectButton {project}></ProjectButton>
+    </a>
+    <a href={project.github_url} target="_blank">
+      <GithubButton {project}></GithubButton>
+    </a>
+  {:else}
     <ProjectButton {project}></ProjectButton>
-  </a>
-{:else}
-  <div>
-    <ProjectButton {project}></ProjectButton>
-  </div>
-{/if}
+    <GithubButton {project}></GithubButton>
+  {/if}
+</div>

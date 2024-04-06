@@ -1,5 +1,4 @@
 <script lang="ts">
-  import ProjectButton from '$lib/components/project-button.svelte';
   import ProjectLink from '$lib/components/project-link.svelte';
   import type { PageData } from './$types';
 
