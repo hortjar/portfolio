@@ -14,9 +14,12 @@
     rounded-lg 
     border-gradient 
     before:p-[2px]
-    before:rounded-lg before:rounded-r-none
+    before:rounded-lg 
+    before:rounded-r-none
     duration-200
-    ease-in-out`,
+    ease-in-out
+    bg-slate-800
+    bg-opacity-15`,
     disabled
       ? 'button-border-disabled text-slate-400'
       : 'button-border text-slate-100 hover:text-slate-50',

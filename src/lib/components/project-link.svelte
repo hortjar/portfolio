@@ -10,7 +10,7 @@
 </script>
 
 <div
-  class="flex flex-row h-16"
+  class="flex flex-row h-16 font-medium flex-grow"
   use:tooltip={{
     content: project.public ? '' : 'Coming soon!',
     action: 'hover',
@@ -18,7 +18,7 @@
   }}
 >
   {#if project.public}
-    <a href={project.url} target="_blank">
+    <a href={project.url} target="_blank" class="w-full">
       <ProjectButton {project}></ProjectButton>
     </a>
     <a href={project.github_url} target="_blank">

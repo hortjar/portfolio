@@ -6,5 +6,5 @@
   export let project: InferSelectModel<typeof projects>;
 </script>
 
-<BigButton text={project.name} disabled={!project.public} className="h-full rounded-r-none"
+<BigButton text={project.name} disabled={!project.public} className="h-full w-full rounded-r-none"
 ></BigButton>
