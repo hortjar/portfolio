@@ -9,8 +9,21 @@
 <button
   {disabled}
   class={cn(
-    'h-16 px-3 rounded-lg border-2',
-    disabled ? 'border-gray-700' : 'border-gray-400 hover:border-gray-300 duration-150',
+    `h-16 
+    px-3     
+    rounded-lg 
+    flex
+    justify-center
+    items-center
+    border-gradient 
+    before:p-[2px]
+    before:pl-0
+    before:rounded-lg before:rounded-l-none
+    duration-300
+    ease-in-out`,
+    disabled
+      ? 'button-border-disabled text-slate-400'
+      : 'button-border text-slate-100 hover:text-slate-50',
     className
   )}
 >
