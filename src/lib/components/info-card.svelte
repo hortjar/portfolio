@@ -3,9 +3,10 @@
 </script>
 
 <div
-  class="border-gradient card-border before:p-[2px] before:rounded-lg py-6 px-5 w-full bg-slate-900 bg-opacity-15 flex flex-col xl:flex-row gap-5"
+  class="border-gradient card-border before:p-[2px] before:rounded-lg py-6 px-5 w-full bg-slate-900 bg-opacity-15 flex flex-col 2xl:flex-row gap-5"
 >
-  <div class="flex justify-center items-start">
+  <div class="flex justify-center items-start pt-0 2xl:pt-2">
+    <!-- svelte-ignore a11y-img-redundant-alt -->
     <img
       src="https://avatars.githubusercontent.com/u/1873269?v=4"
       alt="My Photo"
@@ -13,7 +14,7 @@
     />
   </div>
   <div class="flex flex-col gap-2">
-    <div class="flex flex-row gap-2 items-center text-2xl">
+    <div class="flex flex-row gap-2 items-center text-3xl pb-1">
       <h1>Hello!</h1>
       <iconify-icon icon="noto:waving-hand" class="text-3xl"></iconify-icon>
     </div>

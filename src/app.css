@@ -30,11 +30,11 @@
 
   .button-border,
   .card-border {
-    @apply before:bg-gradient-to-br before:from-slate-500 before:to-slate-600 before:opacity-35;
+    @apply before:bg-gradient-to-br before:from-slate-400 before:to-slate-600 before:opacity-35;
   }
 
   .button-border {
-    @apply hover:before:from-slate-400 hover:before:to-slate-500;
+    @apply hover:before:from-slate-300 hover:before:to-slate-500;
   }
 
   .czech-text {
