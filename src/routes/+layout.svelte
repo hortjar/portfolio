@@ -11,9 +11,7 @@
   <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
   <meta property="og:title" content="Jaroslav Hort - Portfolio" />
   <meta property="og:description" content="My portfolio and my projects" />
-  <meta property="og:image" content="https://avatars.githubusercontent.com/u/1873269?v=4" />
-  <meta property="og:image:width" content="128" />
-  <meta property="og:image:height" content="128" />
+  <meta property="og:image" content="/favicon.png" />
   <meta property="og:image:alt" content="Jaroslav Hort's Portfio Icon" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="en_US" />
@@ -21,10 +19,10 @@
 </svelte:head>
 
 <div
-  class="min-h-screen md:h-screen w-screen bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-purple-900 via-gray-900 to-black text-white font-medium font-mono pb-10 lg:pb-2 flex flex-col"
+  class="min-h-screen md:h-screen w-screen bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-purple-900 via-gray-900 to-black text-white font-medium font-mono flex flex-col"
 >
   <Header />
-  <div class="h-full w-full flex items-center justify-center py-5 px-2">
+  <div class="h-full w-full flex items-center justify-center">
     <slot />
   </div>
 </div>
