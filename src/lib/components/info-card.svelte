@@ -9,7 +9,7 @@
     <img
       src="https://avatars.githubusercontent.com/u/1873269?v=4"
       alt="My Photo"
-      class="rounded-full"
+      class="rounded-full max-w-52"
     />
   </div>
   <div class="flex flex-col gap-2">
