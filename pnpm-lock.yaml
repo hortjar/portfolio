@@ -8,6 +8,9 @@ dependencies:
   '@sveltejs/adapter-vercel':
     specifier: ^5.2.0
     version: 5.2.0(@sveltejs/kit@2.5.5)
+  iconify-icon:
+    specifier: ^2.0.0
+    version: 2.0.0
 
 devDependencies:
   '@sveltejs/adapter-auto':
@@ -534,6 +537,10 @@ packages:
   /@humanwhocodes/object-schema@2.0.3:
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
     dev: true
+
+  /@iconify/types@2.0.0:
+    resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
+    dev: false
 
   /@isaacs/cliui@8.0.2:
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -1793,6 +1800,12 @@ packages:
       debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /iconify-icon@2.0.0:
+    resolution: {integrity: sha512-38ArOkxmyD9oDbJBkxaFpE6eZ0K3F9Sk+3x4mWGfjMJaxi3EKrix9Du4iWhgBFT3imKC4FJJE34ur2Rc7Xm+Uw==}
+    dependencies:
+      '@iconify/types': 2.0.0
     dev: false
 
   /ignore@5.3.1:
