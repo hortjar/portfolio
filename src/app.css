@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .border-gradient {
+    position: relative;
+    border-color: transparent;
+  }
+
+  .border-gradient::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  .button-border-disabled {
+    @apply before:bg-gradient-to-br before:from-slate-700 before:to-slate-800 before:opacity-60;
+  }
+
+  .button-border,
+  .card-border {
+    @apply before:bg-gradient-to-br before:from-slate-500 before:to-slate-600 before:opacity-35;
+  }
+
+  .button-border {
+    @apply hover:before:from-slate-400 hover:before:to-slate-500;
+  }
+
+  .czech-text {
+    @apply font-bold bg-gradient-to-r from-blue-200 via-red-200 to-white [-webkit-background-clip:text] [-webkit-text-fill-color:transparent];
+  }
+
+  .english-text {
+    @apply font-bold bg-gradient-to-r from-red-200  to-white [-webkit-background-clip:text] [-webkit-text-fill-color:transparent];
+  }
+
+  .japan-text {
+    @apply font-bold bg-gradient-to-r from-white via-red-200 to-white [-webkit-background-clip:text] [-webkit-text-fill-color:transparent];
+  }
+}
