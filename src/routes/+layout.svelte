@@ -22,7 +22,6 @@
 
 <div
   class="min-h-screen md:h-screen w-screen bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-purple-900 via-gray-900 to-black text-white font-medium font-mono pb-10 lg:pb-2 flex flex-col"
->
   <Header />
   <div class="h-full w-full flex items-center justify-center py-5 px-2">
     <slot />
