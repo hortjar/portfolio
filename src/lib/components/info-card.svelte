@@ -3,7 +3,7 @@
 </script>
 
 <div
-  class="border-gradient card-border before:p-[2px] before:rounded-lg py-6 px-5 w-full bg-slate-900 bg-opacity-15 flex flex-col md:flex-row gap-5"
+  class="border-gradient card-border before:p-[2px] before:rounded-lg py-6 px-5 w-full bg-slate-900 bg-opacity-15 flex flex-col xl:flex-row gap-5"
 >
   <div class="flex justify-center items-start">
     <img
