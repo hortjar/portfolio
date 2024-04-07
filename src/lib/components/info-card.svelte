@@ -16,7 +16,7 @@
   <div class="flex flex-col gap-2">
     <div class="flex flex-row gap-2 items-center text-3xl pb-1">
       <h1>Hello!</h1>
-      <iconify-icon icon="noto:waving-hand" class="text-3xl"></iconify-icon>
+      <iconify-icon icon="noto:waving-hand" observer="false" class="text-3xl"></iconify-icon>
     </div>
     <p>
       My name is <b>Jaroslav Hort</b>, I am a software dveloper from
@@ -39,10 +39,10 @@
     </p>
     <div class="flex flex-row gap-4 text-3xl mt-1">
       <a href="https://github.com/hortjar">
-        <iconify-icon icon="mdi:github" class="mt-1"></iconify-icon>
+        <iconify-icon icon="mdi:github" observer="false" class="mt-1"></iconify-icon>
       </a>
       <a href="https://www.linkedin.com/in/jaroslav-hort-4a9b01206/">
-        <iconify-icon icon="mdi:linkedin" class="text-4xl"></iconify-icon>
+        <iconify-icon icon="mdi:linkedin" observer="false" class="text-4xl"></iconify-icon>
       </a>
     </div>
   </div>
