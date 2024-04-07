@@ -38,14 +38,14 @@
   }
 
   .czech-text {
-    @apply font-bold bg-gradient-to-r from-blue-200 via-red-200 to-white [-webkit-background-clip:text] [-webkit-text-fill-color:transparent];
+    @apply font-bold bg-gradient-to-r from-white  via-red-400 to-blue-500 [-webkit-background-clip:text] [-webkit-text-fill-color:transparent];
   }
 
   .english-text {
-    @apply font-bold bg-gradient-to-r from-red-200  to-white [-webkit-background-clip:text] [-webkit-text-fill-color:transparent];
+    @apply font-bold bg-gradient-to-r from-red-400  to-white [-webkit-background-clip:text] [-webkit-text-fill-color:transparent];
   }
 
   .japan-text {
-    @apply font-bold bg-gradient-to-r from-white via-red-200 to-white [-webkit-background-clip:text] [-webkit-text-fill-color:transparent];
+    @apply font-bold bg-gradient-to-r from-white via-red-400 to-white [-webkit-background-clip:text] [-webkit-text-fill-color:transparent];
   }
 }
