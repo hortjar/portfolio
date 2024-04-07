@@ -11,5 +11,5 @@
   disabled={!project.public}
   className="flex items-center content-center h-full rounded-l-none border-l-0"
 >
-  <iconify-icon icon="mdi:github" class="text-2xl"></iconify-icon>
+  <iconify-icon icon="mdi:github" observer="false" class="text-2xl"></iconify-icon>
 </IconButton>

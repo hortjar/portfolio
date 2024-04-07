@@ -2,7 +2,6 @@
   import type { projects } from '$lib/db/schema';
   import type { InferSelectModel } from 'drizzle-orm';
   import { tooltip } from '@svelte-plugins/tooltips';
-  import 'iconify-icon';
   import GithubButton from './github-button.svelte';
   import ProjectButton from './project-button.svelte';
 
